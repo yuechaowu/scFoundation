@@ -4,6 +4,7 @@ import torch
 from torch import nn
 sys.path.append("../model/") # path to this folder
 from load import *
+from utils import *
 
 class LinearProbingClassifier(nn.Module):
 
